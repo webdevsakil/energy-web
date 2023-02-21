@@ -13,12 +13,14 @@
         padding: 16px 0px;
         margin-top: 180px;
         border-radius: 11px;
+
         .lists-top {
             background-color: #fff;
             padding: 5px 10px;
             width: 80%;
             border-top-right-radius: 5px;
             border-bottom-right-radius: 5px;
+
             .ratings {
                 font-weight: 600;
                 font-size: 16px;
@@ -52,7 +54,7 @@
             top: 20px;
             left: 0;
             width: 1px;
-            height: 70%;
+            height: 65%;
             background-color: #D5DCD6;
             content: "";
         }
@@ -78,12 +80,20 @@
                     content: "";
                 }
             }
-            &:not(.active){
-                h3{
+
+            &.active:last-child {
+                &::before {
+                    display: none;
+                }
+            }
+
+            &:not(.active) {
+                h3 {
                     color: #D5DCD6;
                     min-height: 50px;
                 }
-                p{
+
+                p {
                     display: none;
                 }
             }

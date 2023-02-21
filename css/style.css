@@ -259,7 +259,7 @@ label {
   top: 20px;
   left: 0;
   width: 1px;
-  height: 70%;
+  height: 65%;
   background-color: #D5DCD6;
   content: "";
 }
@@ -278,6 +278,9 @@ label {
   height: 100%;
   background-color: rgba(97, 184, 116, 0.9294117647);
   content: "";
+}
+.sidebar-area .middle-widgets .widgets-body.active:last-child::before {
+  display: none;
 }
 .sidebar-area .middle-widgets .widgets-body:not(.active) h3 {
   color: #D5DCD6;
