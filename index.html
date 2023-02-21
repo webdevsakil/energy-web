@@ -64,7 +64,7 @@
         </aside>
 
         <div class="main">
-            <div class="main-inner-area">
+            <div class="main-inner-area" id="mainArea">
                 <div class="main-inner-top-area">
                     <img src="images/icon/calculator.png" class="img-fluid" alt="">
                     <div class="heading">
@@ -76,7 +76,7 @@
                     <div class="row mt-50">
                         <div class="col-lg-6">
                             <div class="single-card">
-                                <input type="checkbox">
+                                <input type="checkbox" id="checkboxOne" value="http://127.0.0.1:5501/projects.html">
                                 <div class="mt-2 d-flex align-items-center ml-35">
                                     <img src="images/projects/project-1.png" class="img-fluid" alt="">
                                     <h3>A house</h3>
@@ -85,7 +85,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="single-card">
-                                <input type="checkbox" checked>
+                                <input type="checkbox" id="checkboxTwo" value="https://spellon.agency/">
                                 <div class="mt-2 d-flex align-items-center ml-35">
                                     <img src="images/projects/project-2.png" class="img-fluid" alt="">
                                     <h3>A flat</h3>
@@ -95,7 +95,7 @@
                     </div>
                 </div>
                 <div class="btn-area">
-                    <a href="#" class="rounded-button">continue</a>
+                    <button type="button" class="rounded-button" id="submitBtn">continue</button>
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@
 
     <!-- all js files -->
     <script src="js/modernizr-3.11.2.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
