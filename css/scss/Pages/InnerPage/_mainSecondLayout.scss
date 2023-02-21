@@ -6,7 +6,7 @@
     justify-content: center;
     .top-area {
         position: absolute;
-        top: 150px;
+        top: 110px;
         display: flex;
         align-items: center;
 
@@ -25,7 +25,7 @@
 
         span {
             font-weight: 600;
-            font-size: 26px;
+            font-size: 20px;
             line-height: 36px;
             color: rgba(26, 27, 22, 1);
             text-transform: capitalize;
@@ -50,6 +50,7 @@
             background-color: #fff;
             border-radius: 8px;
             padding: 12px;
+            padding-bottom: 30px;
             .img-area{
                 margin-right: 26px;
             }

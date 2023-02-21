@@ -1,25 +1,39 @@
+// checkbox
 
-const checkboxOne = document.getElementById('checkboxOne');
-const checkboxTwo = document.getElementById('checkboxTwo');
+const mainArea = document.getElementById("mainArea");
+const inputElements = mainArea.querySelectorAll("input");
+const inputElementsLength = inputElements.length;
 const submitBtn = document.getElementById("submitBtn");
-checkboxOne.addEventListener('change', function () {
-    if (this.checked) {
-        checkboxTwo.checked = false;
-    }
-});
+console.log(submitBtn)
+for (let i = 0; i < inputElementsLength; i++) {
 
-checkboxTwo.addEventListener('change', function () {
-    if (this.checked) {
-        checkboxOne.checked = false;
-    }
-});
+    inputElements[i].addEventListener('change', function () {
+        unchecked(inputElements)
+        inputElements[i], this.checked = true;
+    })
+}
+
+function unchecked(el) {
+    el.forEach(element => {
+        element.checked = false;
+    });
+}
 
 submitBtn.addEventListener('click', function () {
-    if (checkboxOne.checked) {
-        console.log(checkboxOne.value)
-        location.href = checkboxOne.value;
-    } else {
-        location.href = checkboxTwo.value;
+
+    for (let i = 0; i < inputElementsLength; i++) {
+        if (inputElements[i].checked === true) {
+            location.href = inputElements[i].value
+        }
     }
 
 })
+
+
+// after submit button
+
+
+
+
+
+

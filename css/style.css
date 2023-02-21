@@ -19,11 +19,11 @@ html {
 a,
 .button,
 button {
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  -ms-transition: all 0.2s ease-out 0s;
+  -o-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
 }
 
 a:focus,
@@ -259,7 +259,7 @@ label {
   top: 20px;
   left: 0;
   width: 1px;
-  height: 90%;
+  height: 70%;
   background-color: #D5DCD6;
   content: "";
 }
@@ -279,8 +279,12 @@ label {
   background-color: rgba(97, 184, 116, 0.9294117647);
   content: "";
 }
-.sidebar-area .middle-widgets .widgets-body.next h3::before {
-  background-color: #61B874;
+.sidebar-area .middle-widgets .widgets-body:not(.active) h3 {
+  color: #D5DCD6;
+  min-height: 50px;
+}
+.sidebar-area .middle-widgets .widgets-body:not(.active) p {
+  display: none;
 }
 .sidebar-area .middle-widgets .widgets-body h3 {
   font-size: 16px;
@@ -387,7 +391,7 @@ label {
 }
 .main-second-layout .top-area {
   position: absolute;
-  top: 150px;
+  top: 110px;
   display: flex;
   align-items: center;
 }
@@ -405,7 +409,7 @@ label {
 }
 .main-second-layout .top-area span {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 20px;
   line-height: 36px;
   color: rgb(26, 27, 22);
   text-transform: capitalize;
@@ -428,6 +432,7 @@ label {
   background-color: #fff;
   border-radius: 8px;
   padding: 12px;
+  padding-bottom: 30px;
 }
 .main-second-layout .main-content .single-card .img-area {
   margin-right: 26px;

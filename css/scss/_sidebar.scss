@@ -52,7 +52,7 @@
             top: 20px;
             left: 0;
             width: 1px;
-            height: 90%;
+            height: 70%;
             background-color: #D5DCD6;
             content: "";
         }
@@ -78,14 +78,23 @@
                     content: "";
                 }
             }
-
-            &.next {
-                h3 {
-                    &::before {
-                        background-color: #61B874;
-                    }
+            &:not(.active){
+                h3{
+                    color: #D5DCD6;
+                    min-height: 50px;
+                }
+                p{
+                    display: none;
                 }
             }
+
+            // &.next {
+            //     h3 {
+            //         &::before {
+            //             background-color: #61B874;
+            //         }
+            //     }
+            // }
 
             h3 {
                 font-size: 16px;
