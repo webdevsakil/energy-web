@@ -1,0 +1,54 @@
+.advantages-area {
+    .content-area {
+        .subheading {
+            h5 {
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 600;
+                color: #F4932C;
+                text-transform: uppercase;
+            }
+        }
+
+        .heading {
+            h2 {
+                font-size: 46px;
+                line-height: 64px;
+                font-weight: 600;
+                color: #1E1E1E;
+            }
+        }
+
+        .desc {
+            p {
+                font-size: 16px;
+                line-height: 30px;
+                font-weight: 400;
+                color: rgba(79, 75, 72, 0.8);
+            }
+        }
+    }
+
+    // cards area
+
+    .single-card{
+        text-align: center;
+        .heading{
+            h3{
+                font-size: 24px;
+                line-height: 36px;
+                font-weight: 600;
+                color: #1E1E1E;
+                margin: 5px 0px;
+            }
+        }
+        .desc{
+            p{
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 400;
+                color: rgba(79, 75, 72, 0.7);
+            }
+        }
+    }
+}

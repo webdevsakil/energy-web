@@ -1,0 +1,146 @@
+.plans-area {
+    .section-top {
+        text-align: center;
+
+        .subheading {
+            h5 {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 26px;
+                color: #F4932C;
+                text-transform: uppercase;
+            }
+        }
+
+        .heading {
+            h2 {
+                font-size: 46px;
+                line-height: 64px;
+                font-weight: 600;
+                color: #1E1E1E;
+            }
+        }
+
+        .desc {
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                color: #4F4B48;
+            }
+        }
+    }
+
+    .blog-area {
+        .single-card {
+            padding: 45px 40px;
+
+            .heading {
+                h3 {
+                    font-size: 24px;
+                    line-height: 36px;
+                    font-weight: 600;
+                }
+            }
+
+            .desc {
+                margin-top: 20px;
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: #4F4B48;
+                }
+            }
+
+            .link {
+                margin-top: 30px;
+
+                a {
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 44px;
+                    width: 44px;
+                    border-radius: 50%;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .row {
+            .col {
+
+                &:nth-child(1) {
+                    .single-card {
+                        background-color: #DFFAE7;
+
+                        h3 {
+                            color: #61B874;
+                        }
+
+                        .link {
+                            a {
+                                background-color: #d2edda;
+                                color: #000000;
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    .single-card {
+                        background-color: #ffe6d4;
+
+                        h3 {
+                            color: #F4932C;
+                        }
+
+                        .link {
+                            a {
+                                background-color: #F1CEA9;
+                                color: #FF8A00;
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(3) {
+                    .single-card {
+                        background-color: #daf9f6;
+
+                        h3 {
+                            color: #46BAB1;
+                        }
+
+                        .link {
+                            a {
+                                background-color: #bfede9;
+                                color: #46BAB1;
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(4) {
+                    .single-card {
+                        background-color: #ebfcdf;
+
+                        h3 {
+                            color: #77B649;
+                        }
+
+                        .link {
+                            a {
+                                background-color: #C9E4B5;
+                                color: #77B649;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

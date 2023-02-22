@@ -7,6 +7,16 @@ Author: Spellon
 @import './common';
 @import './buttons';
 @import './header/header';
+@import './navbar';
 @import './sidebar';
 @import './main';
 @import './Pages/InnerPage/mainSecondLayout';
+
+// Home page
+
+@import './Pages/Home/hero';
+@import './Pages/Home/advantages';
+@import './Pages/Home/cleanAir';
+@import './Pages/Home/planarea';
+@import './Pages/Home/cta';
+@import './Pages/Home/footer';

@@ -1,0 +1,43 @@
+.clean-air {
+    .img-area {
+        img {
+            margin-left: -150px;
+        }
+    }
+
+    .single-card {
+        .subheading {
+            h5 {
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 600;
+                color: #F4932C;
+                text-transform: uppercase;
+            }
+        }
+
+        .heading {
+            h3 {
+                font-size: 46px;
+                line-height: 64px;
+                font-weight: 600;
+                color: #1E1E1E;
+            }
+        }
+
+        .desc {
+            p {
+                font-size: 16px;
+                line-height: 30px;
+                font-weight: 400;
+                color: #4F4B48;
+            }
+        }
+
+        .btn-area {
+            .rounded-button {
+                padding: 15px 40px;
+            }
+        }
+    }
+}
