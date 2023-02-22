@@ -31,10 +31,11 @@
 
     // cards area
 
-    .single-card{
+    .single-card {
         text-align: center;
-        .heading{
-            h3{
+
+        .heading {
+            h3 {
                 font-size: 24px;
                 line-height: 36px;
                 font-weight: 600;
@@ -42,13 +43,31 @@
                 margin: 5px 0px;
             }
         }
-        .desc{
-            p{
+
+        .desc {
+            p {
                 font-size: 16px;
                 line-height: 26px;
                 font-weight: 400;
                 color: rgba(79, 75, 72, 0.7);
             }
         }
+    }
+}
+
+@media all and (max-width:576px) {
+    .advantages-area .content-area .heading h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .advantages-area .content-area .desc p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+
+    .advantages-area .single-card {
+        margin-top: 20px;
     }
 }

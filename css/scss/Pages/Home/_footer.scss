@@ -1,7 +1,14 @@
-.home-footer{
+.home-footer {
     margin-top: -125px;
     min-height: 666px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+@media all and (max-width:576px) {
+    .home-footer {
+        margin-top: -150px;
+
+    }
 }

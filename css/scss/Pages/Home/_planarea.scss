@@ -144,3 +144,16 @@
         }
     }
 }
+
+@media all and (max-width:576px) {
+    .plans-area .section-top .heading h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .plans-area .blog-area .single-card {
+        padding: 22px 45px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
