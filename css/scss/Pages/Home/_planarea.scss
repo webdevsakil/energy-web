@@ -145,6 +145,13 @@
     }
 }
 
+@media all and (min-width:577px) and (max-width:767px) {
+    .plans-area .section-top .heading h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
 @media all and (max-width:576px) {
     .plans-area .section-top .heading h2 {
         font-size: 26px;

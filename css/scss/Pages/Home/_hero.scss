@@ -1,8 +1,8 @@
 .hero-area {
     min-height: 654px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -44,6 +44,38 @@
                 padding: 15px 35px;
             }
         }
+    }
+}
+
+@media all and (min-width:992px) and (max-width:1200px) {
+    .hero-area {
+        min-height: 530px;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:991px) {
+    .hero-area {
+        min-height: fit-content;
+        margin-top: 25px;
+        background: unset;
+    }
+}
+
+@media all and (min-width:577px) and (max-width:767px) {
+    .hero-area {
+        min-height: fit-content;
+        margin-top: 30px;
+        background: unset;
+    }
+
+    .hero-area .hero-content-area .hero-heading h1 {
+        font-size: 36px;
+        line-height: 46px;
+        margin-top: 10px;
+    }
+
+    .hero-area .hero-content-area .hero-desc {
+        padding-right: 0px;
     }
 }
 

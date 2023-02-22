@@ -19,6 +19,17 @@
     }
 }
 
+@media all and (min-width:577px) and (max-width:767px) {
+    .cta-area .heading {
+        padding: 0px 0px;
+    }
+
+    .cta-area .heading h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+
 @media all and (max-width:576px) {
     .cta-area .heading h2 {
         font-size: 36px;

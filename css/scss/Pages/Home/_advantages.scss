@@ -55,6 +55,20 @@
     }
 }
 
+@media all and (min-width:577px) and (max-width:767px) {
+    .advantages-area .content-area .heading h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .advantages-area .single-card {
+
+        max-width: 400px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+}
+
 @media all and (max-width:576px) {
     .advantages-area .content-area .heading h2 {
         font-size: 26px;

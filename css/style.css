@@ -634,9 +634,9 @@ label {
 
 .hero-area {
   min-height: 654px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -668,6 +668,33 @@ label {
   padding: 15px 35px;
 }
 
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .hero-area {
+    min-height: 530px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .hero-area {
+    min-height: fit-content;
+    margin-top: 25px;
+    background: unset;
+  }
+}
+@media all and (min-width: 577px) and (max-width: 767px) {
+  .hero-area {
+    min-height: fit-content;
+    margin-top: 30px;
+    background: unset;
+  }
+  .hero-area .hero-content-area .hero-heading h1 {
+    font-size: 36px;
+    line-height: 46px;
+    margin-top: 10px;
+  }
+  .hero-area .hero-content-area .hero-desc {
+    padding-right: 0px;
+  }
+}
 @media all and (max-width: 576px) {
   .container {
     padding: 0px 15px;
@@ -722,6 +749,17 @@ label {
   color: rgba(79, 75, 72, 0.7);
 }
 
+@media all and (min-width: 577px) and (max-width: 767px) {
+  .advantages-area .content-area .heading h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .advantages-area .single-card {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}
 @media all and (max-width: 576px) {
   .advantages-area .content-area .heading h2 {
     font-size: 26px;
@@ -762,6 +800,28 @@ label {
   padding: 15px 40px;
 }
 
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .clean-air .img-area img {
+    margin-left: 0px;
+    width: 100%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .clean-air .img-area img {
+    margin-left: 0px;
+    width: 100%;
+  }
+}
+@media all and (min-width: 577px) and (max-width: 767px) {
+  .clean-air .img-area img {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .clean-air .single-card .heading h3 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
 @media all and (max-width: 576px) {
   .clean-air .img-area img {
     margin-left: 0px;
@@ -869,6 +929,12 @@ label {
   color: #77B649;
 }
 
+@media all and (min-width: 577px) and (max-width: 767px) {
+  .plans-area .section-top .heading h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
 @media all and (max-width: 576px) {
   .plans-area .section-top .heading h2 {
     font-size: 26px;
@@ -896,6 +962,15 @@ label {
   padding: 15px 35px;
 }
 
+@media all and (min-width: 577px) and (max-width: 767px) {
+  .cta-area .heading {
+    padding: 0px 0px;
+  }
+  .cta-area .heading h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+}
 @media all and (max-width: 576px) {
   .cta-area .heading h2 {
     font-size: 36px;

@@ -42,6 +42,32 @@
     }
 }
 
+@media all and (min-width:992px) and (max-width:1200px) {
+    .clean-air .img-area img {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:991px) {
+    .clean-air .img-area img {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+@media all and (min-width:577px) and (max-width:767px) {
+    .clean-air .img-area img {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .clean-air .single-card .heading h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
 @media all and (max-width:576px) {
     .clean-air .img-area img {
         margin-left: 0px;
