@@ -31,9 +31,13 @@
 }
 
 @media all and (max-width:576px) {
+    .cta-area .btn-area .rounded-button {
+        padding: 10px 25px;
+    }
+
     .cta-area .heading h2 {
-        font-size: 36px;
-        line-height: 44px;
+        font-size: 32px;
+        line-height: 42px;
     }
 
     .cta-area .heading {

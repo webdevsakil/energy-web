@@ -57,7 +57,7 @@
     .hero-area {
         min-height: fit-content;
         margin-top: 25px;
-        background: unset;
+        background: unset !important;
     }
 }
 
@@ -65,7 +65,7 @@
     .hero-area {
         min-height: fit-content;
         margin-top: 30px;
-        background: unset;
+        background: unset !important;
     }
 
     .hero-area .hero-content-area .hero-heading h1 {
@@ -84,10 +84,14 @@
         padding: 0px 15px;
     }
 
+    .hero-area .hero-content-area .hero-btn .rounded-button {
+        padding: 10px 25px;
+    }
+
     .hero-area {
         min-height: fit-content;
         margin-top: 25px;
-        background: unset;
+        background: unset !important;
     }
 
     .hero-area .hero-content-area .hero-heading h1 {

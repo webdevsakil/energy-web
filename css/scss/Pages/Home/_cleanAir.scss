@@ -69,6 +69,10 @@
 }
 
 @media all and (max-width:576px) {
+    .clean-air .single-card .btn-area .rounded-button {
+        padding: 10px 25px;
+    }
+
     .clean-air .img-area img {
         margin-left: 0px;
         width: 100%;

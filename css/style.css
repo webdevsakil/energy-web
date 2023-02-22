@@ -677,14 +677,14 @@ label {
   .hero-area {
     min-height: fit-content;
     margin-top: 25px;
-    background: unset;
+    background: unset !important;
   }
 }
 @media all and (min-width: 577px) and (max-width: 767px) {
   .hero-area {
     min-height: fit-content;
     margin-top: 30px;
-    background: unset;
+    background: unset !important;
   }
   .hero-area .hero-content-area .hero-heading h1 {
     font-size: 36px;
@@ -699,10 +699,13 @@ label {
   .container {
     padding: 0px 15px;
   }
+  .hero-area .hero-content-area .hero-btn .rounded-button {
+    padding: 10px 25px;
+  }
   .hero-area {
     min-height: fit-content;
     margin-top: 25px;
-    background: unset;
+    background: unset !important;
   }
   .hero-area .hero-content-area .hero-heading h1 {
     font-size: 26px;
@@ -735,6 +738,9 @@ label {
 .advantages-area .single-card {
   text-align: center;
 }
+.advantages-area .single-card .heading {
+  margin-top: 20px;
+}
 .advantages-area .single-card .heading h3 {
   font-size: 24px;
   line-height: 36px;
@@ -747,6 +753,9 @@ label {
   line-height: 26px;
   font-weight: 400;
   color: rgba(79, 75, 72, 0.7);
+}
+.advantages-area .single-card .icon img {
+  height: 110px;
 }
 
 @media all and (min-width: 577px) and (max-width: 767px) {
@@ -771,7 +780,7 @@ label {
     margin-top: 10px;
   }
   .advantages-area .single-card {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 }
 .clean-air .img-area img {
@@ -823,6 +832,9 @@ label {
   }
 }
 @media all and (max-width: 576px) {
+  .clean-air .single-card .btn-area .rounded-button {
+    padding: 10px 25px;
+  }
   .clean-air .img-area img {
     margin-left: 0px;
     width: 100%;
@@ -972,9 +984,12 @@ label {
   }
 }
 @media all and (max-width: 576px) {
+  .cta-area .btn-area .rounded-button {
+    padding: 10px 25px;
+  }
   .cta-area .heading h2 {
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 32px;
+    line-height: 42px;
   }
   .cta-area .heading {
     padding: 0px 0px;
@@ -982,15 +997,27 @@ label {
 }
 .home-footer {
   margin-top: -125px;
-  min-height: 666px;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
+}
+.home-footer img {
+  width: 100%;
+}
+.home-footer .container-fluid {
+  padding: 0px !important;
 }
 
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .home-footer {
+    margin-top: 0px;
+  }
+}
+@media all and (min-width: 577px) and (max-width: 767px) {
+  .home-footer {
+    margin-top: 0px;
+  }
+}
 @media all and (max-width: 576px) {
   .home-footer {
-    margin-top: -150px;
+    margin-top: 0px;
   }
 }
 
