@@ -950,6 +950,7 @@ label {
 }
 .plans-area .blog-area .single-card {
   padding: 45px 40px;
+  border-radius: 16px;
 }
 .plans-area .blog-area .single-card .heading h3 {
   font-size: 24px;
