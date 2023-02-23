@@ -710,14 +710,14 @@ label {
   }
 }
 .hero-area {
-  min-height: 654px;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
+  min-height: 650px;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.hero-area video {
+  width: 100%;
 }
 .hero-area .hero-content-area .hero-sub-heading h5 {
   font-size: 16px;
@@ -860,8 +860,8 @@ label {
     margin-top: 40px;
   }
 }
-.clean-air .img-area img {
-  margin-left: -150px;
+.clean-air .video-area video {
+  width: 100%;
 }
 .clean-air .single-card .subheading h5 {
   font-size: 16px;
@@ -887,19 +887,19 @@ label {
 }
 
 @media all and (min-width: 992px) and (max-width: 1200px) {
-  .clean-air .img-area img {
+  .clean-air .video-area video {
     margin-left: 0px;
     width: 100%;
   }
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
-  .clean-air .img-area img {
+  .clean-air .video-area video {
     margin-left: 0px;
     width: 100%;
   }
 }
 @media all and (min-width: 577px) and (max-width: 767px) {
-  .clean-air .img-area img {
+  .clean-air .video-area video {
     margin-left: 0px;
     width: 100%;
   }
@@ -912,7 +912,7 @@ label {
   .clean-air .single-card .btn-area .rounded-button {
     padding: 10px 25px;
   }
-  .clean-air .img-area img {
+  .clean-air .video-area video {
     margin-left: 0px;
     width: 100%;
   }
@@ -1072,10 +1072,7 @@ label {
     padding: 0px 0px;
   }
 }
-.home-footer {
-  margin-top: -125px;
-}
-.home-footer img {
+.home-footer video {
   width: 100%;
 }
 .home-footer .container-fluid {

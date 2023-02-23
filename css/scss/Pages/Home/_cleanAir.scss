@@ -1,7 +1,7 @@
 .clean-air {
-    .img-area {
-        img {
-            margin-left: -150px;
+    .video-area {
+        video {
+            width: 100%;
         }
     }
 
@@ -43,21 +43,21 @@
 }
 
 @media all and (min-width:992px) and (max-width:1200px) {
-    .clean-air .img-area img {
+    .clean-air .video-area video {
         margin-left: 0px;
         width: 100%;
     }
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
-    .clean-air .img-area img {
+    .clean-air .video-area video {
         margin-left: 0px;
         width: 100%;
     }
 }
 
 @media all and (min-width:577px) and (max-width:767px) {
-    .clean-air .img-area img {
+    .clean-air .video-area video {
         margin-left: 0px;
         width: 100%;
     }
@@ -73,7 +73,7 @@
         padding: 10px 25px;
     }
 
-    .clean-air .img-area img {
+    .clean-air .video-area video {
         margin-left: 0px;
         width: 100%;
     }

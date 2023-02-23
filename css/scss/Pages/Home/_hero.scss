@@ -1,8 +1,10 @@
 .hero-area {
-    min-height: 654px;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
+    min-height: 650px;
+
+    video {
+        width: 100%;
+    }
+
     margin-top: 50px;
     display: flex;
     flex-direction: column;
