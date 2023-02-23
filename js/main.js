@@ -1,12 +1,4 @@
 
-const heroVideo = document.querySelector('.hero-area video')
-const cleanAir = document.querySelector('.clean-air video')
-const homeFooter = document.querySelector('.home-footer video')
-onload = e => {
-  heroVideo.play();
-  cleanAir.play();
-  homeFooter.play();
-};
 
 
 (function ($) {
