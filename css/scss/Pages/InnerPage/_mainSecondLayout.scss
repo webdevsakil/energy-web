@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     .top-area {
         position: absolute;
         top: 110px;
@@ -32,30 +33,36 @@
             margin-left: 20px;
         }
     }
-.content-wrapper{
-    max-width: 1184px;
-    margin: 0 auto;
-}
+
+    .content-wrapper {
+        max-width: 1184px;
+        margin: 0 auto;
+    }
+
     .main-content {
         .heading {
             text-align: center;
-            h3{
+
+            h3 {
                 font-size: 20px;
                 line-height: 30px;
                 font-weight: 600;
                 color: #1A1B16;
             }
         }
-        .single-card{
+
+        .single-card {
             background-color: #fff;
             border-radius: 8px;
             padding: 12px;
             padding-bottom: 30px;
-            .img-area{
+
+            .img-area {
                 margin-right: 26px;
             }
-            .content-area{
-                span{
+
+            .content-area {
+                span {
                     font-size: 20px;
                     line-height: 30px;
                     font-weight: 500;
@@ -64,4 +71,27 @@
             }
         }
     }
+}
+
+@media all and (min-width:577px) and (max-width:768px) {
+    .main-second-layout .top-area {
+        top: 35px;
+        margin-left: 0px;
+    }
+
+    .main-second-layout .content-wrapper {
+        max-width: fit-content;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+@media all and (max-width:576px) {
+    .main-second-layout .top-area {
+        top: 40px;
+        margin-left: 0px;
+    }
+
+
 }

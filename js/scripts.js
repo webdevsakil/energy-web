@@ -4,12 +4,14 @@ const mainArea = document.getElementById("mainArea");
 const inputElements = mainArea.querySelectorAll("input");
 const inputElementsLength = inputElements.length;
 const submitBtn = document.getElementById("submitBtn");
-console.log(submitBtn)
-for (let i = 0; i < inputElementsLength; i++) {
 
+for (let i = 0; i < inputElementsLength; i++) {
     inputElements[i].addEventListener('change', function () {
         unchecked(inputElements)
-        inputElements[i], this.checked = true;
+        inputElements[i].checked = true;
+        if (inputElements[i].checked) {
+            location.href = inputElements[i].value;
+        }
     })
 }
 

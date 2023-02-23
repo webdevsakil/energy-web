@@ -166,6 +166,14 @@ label {
   font-weight: 700;
 }
 
+@media (max-width: 576px) {
+  .header-area {
+    padding: 15px 30px;
+  }
+  .text-normal {
+    margin-top: 10px;
+  }
+}
 .navbar-area {
   padding-top: 20px;
 }
@@ -390,11 +398,6 @@ label {
 /*
  White background header
 */
-@media (max-width: 991px) {
-  .header-area {
-    padding: 15px 0px;
-  }
-}
 .sidebar-area {
   background-color: #fff;
   min-height: 100vh;
@@ -554,6 +557,8 @@ label {
   padding: 12px;
   border-radius: 8px;
   padding-bottom: 30px;
+  display: block;
+  text-decoration: none;
 }
 .main-area .main .main-inner-area .main-innner-content .single-card img {
   margin-right: 30px;
@@ -570,6 +575,61 @@ label {
   margin-top: 100px;
 }
 
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .main-area .main .main-inner-area .main-inner-top-area {
+    padding: 30px 15px;
+    flex-direction: row;
+  }
+}
+@media all and (max-width: 991px) {
+  .main-area {
+    min-height: fit-content;
+    display: block;
+    padding: 0px 30px;
+  }
+  .sidebar-area {
+    min-height: fit-content;
+    width: 100%;
+    display: block;
+    padding: 20px 20px;
+  }
+  .sidebar-area .widgets-top {
+    margin-top: 145px;
+    padding-top: 45px;
+  }
+  .sidebar-area .middle-widgets {
+    margin-top: 30px;
+  }
+  .sidebar-area .widgets-bottom {
+    margin-bottom: 20px;
+    padding: 0px 20px 20px 20px;
+  }
+  .main-area .main .main-inner-area {
+    padding-top: 20px;
+  }
+  .main-area .main .main-inner-area .main-inner-top-area {
+    padding: 30px 15px;
+    flex-direction: column;
+  }
+  .main-area .main .main-inner-area .main-inner-top-area .heading h4 {
+    margin-left: 0px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .main-area .main .main-inner-area .main-innner-content {
+    margin-top: 45px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .main-area .main .main-inner-area .main-innner-content .row {
+    margin-top: 40px;
+  }
+  .main-area .main .btn-area {
+    margin-top: 45px;
+    margin-bottom: 40px;
+  }
+}
 .main-second-layout {
   width: 100%;
   position: relative;
@@ -632,6 +692,23 @@ label {
   color: #4F4B48;
 }
 
+@media all and (min-width: 577px) and (max-width: 768px) {
+  .main-second-layout .top-area {
+    top: 35px;
+    margin-left: 0px;
+  }
+  .main-second-layout .content-wrapper {
+    max-width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media all and (max-width: 576px) {
+  .main-second-layout .top-area {
+    top: 40px;
+    margin-left: 0px;
+  }
+}
 .hero-area {
   min-height: 654px;
   background-size: cover !important;
