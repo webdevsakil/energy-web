@@ -7,6 +7,102 @@
     .container-fluid {
         padding: 0px !important;
     }
+
+    .main-footer {
+        .footer-desc {
+            padding-right: 50px;
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #4F4B48;
+            }
+        }
+
+        .footer-heading {
+            margin-bottom: 20px;
+            margin-top: 30px;
+
+            h3 {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 26px;
+                color: #4F4B48;
+            }
+        }
+
+        .footer-nav {
+            ul {
+                li {
+                    a {
+                        text-decoration: none;
+                        display: block;
+                        font-size: 16px;
+                        line-height: 32px;
+                        font-weight: 400;
+                        color: #4F4B48;
+
+                        &:hover {
+                            color: #61B874;
+                        }
+                    }
+                }
+            }
+        }
+
+        .list-widgets {
+            ul {
+                li {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 15px;
+
+                    i {
+                        color: #61B874;
+                        margin-right: 20px;
+                    }
+
+                    span {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: #4F4B48;
+                    }
+                }
+            }
+        }
+
+        .links-list {
+            margin-top: 20px;
+
+            ul {
+                li {
+                    a {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #4F4B48;
+
+                        &:hover {
+                            color: #61B874;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-copyright {
+            margin-top: 20px;
+
+            p {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 26px;
+                color: #4F4B48;
+            }
+        }
+    }
 }
 
 @media all and (min-width:768px) and (max-width:992px) {
@@ -24,5 +120,13 @@
 @media all and (max-width:576px) {
     .home-footer {
         margin-top: 0px;
+    }
+
+    .main-footer .footer-logo img {
+        width: 160px;
+    }
+
+    .home-footer .main-footer .footer-desc {
+        padding-right: 0px;
     }
 }
