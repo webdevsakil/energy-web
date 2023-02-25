@@ -1,8 +1,8 @@
 .cta-area {
-    // text-align: center;
+
     position: relative;
     min-height: 100vh;
-   
+
     .video-area {
         position: absolute;
         top: 0;
@@ -39,6 +39,14 @@
         font-size: 36px;
         line-height: 46px;
     }
+
+    .cta-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
 }
 
 @media all and (max-width:576px) {
@@ -53,5 +61,13 @@
 
     .cta-area .heading {
         padding: 0px 0px;
+    }
+
+    .cta-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding-bottom: 50px;
+        padding-top: 50px;
     }
 }

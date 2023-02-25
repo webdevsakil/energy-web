@@ -753,23 +753,20 @@ video {
   padding: 15px 35px;
 }
 
-@media all and (min-width: 992px) and (max-width: 1200px) {
-  .hero-area {
-    min-height: 530px;
-  }
-}
 @media all and (min-width: 768px) and (max-width: 991px) {
   .hero-area {
-    min-height: fit-content;
-    margin-top: 25px;
-    background: unset !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 100px;
   }
 }
 @media all and (min-width: 577px) and (max-width: 767px) {
   .hero-area {
-    min-height: fit-content;
-    margin-top: 30px;
-    background: unset !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 100px;
   }
   .hero-area .hero-content-area .hero-heading h1 {
     font-size: 36px;
@@ -788,9 +785,10 @@ video {
     padding: 10px 25px;
   }
   .hero-area {
-    min-height: fit-content;
-    margin-top: 25px;
-    background: unset !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 100px;
   }
   .hero-area .hero-content-area .hero-heading h1 {
     font-size: 26px;
@@ -1074,6 +1072,13 @@ video {
     font-size: 36px;
     line-height: 46px;
   }
+  .cta-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
 }
 @media all and (max-width: 576px) {
   .cta-area .btn-area .rounded-button {
@@ -1085,6 +1090,13 @@ video {
   }
   .cta-area .heading {
     padding: 0px 0px;
+  }
+  .cta-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
 }
 .home-footer {
