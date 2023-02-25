@@ -126,6 +126,10 @@ label {
   opacity: 1;
 }
 
+video {
+  width: 100%;
+}
+
 /*
    Background Color
 */
@@ -1042,6 +1046,19 @@ label {
 }
 .cta-area {
   text-align: center;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cta-area .video-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 }
 .cta-area .heading h2 {
   font-size: 46px;
@@ -1074,12 +1091,8 @@ label {
     padding: 0px 0px;
   }
 }
-.indoor-area video {
-  width: 100%;
-}
-
-.home-footer video {
-  width: 100%;
+.home-footer {
+  position: relative;
 }
 .home-footer .container-fluid {
   padding: 0px !important;
