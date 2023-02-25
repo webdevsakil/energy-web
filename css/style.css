@@ -710,14 +710,18 @@ label {
   }
 }
 .hero-area {
-  min-height: 650px;
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  position: relative;
+  min-height: 100vh;
+  margin-top: 120px;
 }
-.hero-area video {
-  width: 100%;
+.hero-area .hero-video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  height: 90vh;
+  width: 100vw;
+  object-fit: cover;
 }
 .hero-area .hero-content-area .hero-sub-heading h5 {
   font-size: 16px;
@@ -1070,6 +1074,10 @@ label {
     padding: 0px 0px;
   }
 }
+.indoor-area video {
+  width: 100%;
+}
+
 .home-footer video {
   width: 100%;
 }

@@ -1,14 +1,21 @@
 .hero-area {
-    min-height: 650px;
+    position: relative;
+    min-height: 100vh;
 
-    video {
-        width: 100%;
+    .hero-video {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        height: 90vh;
+        width: 100vw;
+        object-fit: cover;
     }
 
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+
+
+    margin-top: 120px;
 
     .hero-content-area {
         .hero-sub-heading {
