@@ -1045,12 +1045,8 @@ video {
   }
 }
 .cta-area {
-  text-align: center;
   position: relative;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .cta-area .video-area {
   position: absolute;
