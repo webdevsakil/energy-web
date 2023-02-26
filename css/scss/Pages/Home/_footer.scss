@@ -42,8 +42,10 @@
                         font-weight: 400;
                         color: #4F4B48;
 
-                        &:hover {
-                            color: #61B874;
+                        span {
+                            &:hover {
+                                color: #61B874;
+                            }
                         }
                     }
                 }
