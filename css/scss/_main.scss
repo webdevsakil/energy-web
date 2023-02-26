@@ -55,6 +55,7 @@
                     padding-bottom: 30px;
                     display: block;
                     text-decoration: none;
+
                     img {
                         margin-right: 30px;
                     }
@@ -92,7 +93,7 @@
         padding: 0px 30px;
     }
 
-   
+
 
     .main-area .main .main-inner-area {
         padding-top: 20px;
@@ -123,5 +124,11 @@
     .main-area .main .btn-area {
         margin-top: 45px;
         margin-bottom: 40px;
+    }
+}
+
+@media all and (max-width:576px) {
+    .main-area .main .main-inner-area .main-inner-top-area .heading h4 {
+        line-height: 38px;
     }
 }
