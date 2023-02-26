@@ -50,6 +50,9 @@
 }
 
 @media all and (max-width:576px) {
+    .cta-area{
+        text-align: center;
+    }
     .cta-area .btn-area .rounded-button {
         padding: 10px 25px;
     }
