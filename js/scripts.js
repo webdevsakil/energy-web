@@ -1,3 +1,5 @@
+
+
 // checkbox
 
 const mainArea = document.getElementById("mainArea");
@@ -31,8 +33,6 @@ submitBtn.addEventListener('click', function () {
 
 })
 
-
-// after submit button
 
 
 
