@@ -1208,6 +1208,7 @@ video {
   }
 }
 .home-footer {
+  background-color: #1a1b16;
   position: relative;
 }
 .home-footer .container-fluid {
@@ -1220,7 +1221,7 @@ video {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #4F4B48;
+  color: #EDF3E5;
 }
 .home-footer .main-footer .footer-heading {
   margin-bottom: 20px;
@@ -1230,17 +1231,18 @@ video {
   font-weight: 600;
   font-size: 16px;
   line-height: 26px;
-  color: #4F4B48;
+  color: #EDF3E5;
 }
 .home-footer .main-footer .footer-nav ul li a {
   text-decoration: none;
-  display: block;
+  display: inline-block;
+  margin-left: 2px;
   font-size: 16px;
   line-height: 32px;
   font-weight: 400;
-  color: #4F4B48;
+  color: #EDF3E5;
 }
-.home-footer .main-footer .footer-nav ul li a span:hover {
+.home-footer .main-footer .footer-nav ul li a:hover {
   color: #61B874;
 }
 .home-footer .main-footer .list-widgets ul li {
@@ -1256,7 +1258,7 @@ video {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #4F4B48;
+  color: #EDF3E5;
 }
 .home-footer .main-footer .links-list {
   margin-top: 20px;
@@ -1265,7 +1267,7 @@ video {
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
-  color: #4F4B48;
+  color: #EDF3E5;
 }
 .home-footer .main-footer .links-list ul li a:hover {
   color: #61B874;
@@ -1277,7 +1279,7 @@ video {
   font-weight: 400;
   font-size: 12px;
   line-height: 26px;
-  color: #4F4B48;
+  color: #EDF3E5;
 }
 
 @media all and (min-width: 768px) and (max-width: 992px) {
